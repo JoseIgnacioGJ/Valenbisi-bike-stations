@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Zona con forma de rectángulo que muestra la info de cada parada-->
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Texto que muestra el número de la parada-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:id="@+id/paradaviewnumber"
+            />
+
+        <!-- Texto que muestra la dirección de la parada-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:id="@+id/paradaviewaddress"/>
+
+        <!-- Texto que muestra las plazas libres de la parada-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:id="@+id/paradaviewpartes" />
+
+    </TableLayout>
+</RelativeLayout>

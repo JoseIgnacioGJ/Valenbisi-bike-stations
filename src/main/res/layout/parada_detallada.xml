@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalle_Parada">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/editNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editNumber"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editAddress"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/editTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editTotal"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/editFree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editFree"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/editAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editAvailable"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/editCoordinatesX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="editCoordinatesX"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+
+   <!-- In the Bike Station Detail layout must be inserted a ListView that displays the reports associated
+   with the current bike station.  -->
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:textSize="25dp" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/new_game"
+            android:layout_width="209dp"
+            android:layout_height="58dp"
+            android:visible="true"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        <ImageButton
+            android:id="@+id/help"
+            android:layout_width="199dp"
+            android:layout_height="58dp"
+            android:visible="true"
+            app:srcCompat="@android:drawable/ic_menu_mylocation" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/idlistapartesdetalle"
+        android:layout_width="match_parent"
+        android:layout_height="484dp"
+        android:textColor="#000000"
+        android:textSize="1000dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_parada">Parada</string>
+    <string name="title_activity_detalle__parada">Detalle_Parada</string>
+    <string name="title_activity_adapter_paradas">AdapterParadas</string>
+    <string name="help">AYUDA</string>
+    <string name="new_game">NUEVO_JUEGO</string>
+</resources>
