@@ -1,0 +1,2 @@
+Se trata de una aplicación para dispositivos Android que trata sobre Valenbisi, el sistema de alquiler de bicicletas del Ayuntamiento de Valencia. La aplicación permite a los usuarios consultar el estado de las diferentes estaciones de bicicletas y crear informes de incidentes. Se utilizó los servicios del Ayuntamiento de Valencia para la recuperación de datos
+de las estaciones de bicicletas de Valenbisi.
